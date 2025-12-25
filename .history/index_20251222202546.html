@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="Style.css" />
+    <title class="title">Moataz khimes</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay muted loop playsinline>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li><a href="#bio" class="navigation__link  navigation__bio ">Bio</a></li>
+            <li><a href="#skills" class="navigation__link  navigation__skill">Skills</a></li>
+            <li><a href="#media" class="navigation__link  navigation__Media">Media</a></li>
+            <li><a href="#projects" class="navigation__link  navigation__Projects">Projects</a></li>
+            <li><a href="#clients" class="navigation__link  navigation__clients">My clients</a></li>
+            <li><a href="#contact" class="navigation__link  navigation__contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+
+      <section id="bio" class="bio section">
+        <div class="bio__content">
+          <h1 class="bio__heading">
+            Hi There, I'm a passionate front end developer.
+          </h1>
+          <p class="bio__objeactive">
+            My name is <span class="bio__name">Moataz Khimes</span>
+            I'm a computer teacher with over two years of experience in
+            teaching, managing computer labs, and providing technical support.
+            I'm currently learning user interface development
+            <a
+              href="https://www.linkedin.com/in/moataz-khimes-53586223b/"
+              class="bio__linkedin"
+              target="_blank"
+              >LinkedIn</a
+            >
+            and
+            <a href="https://github.com/moataz305G"
+             class="bio__github"
+             target="_blank"
+              >GitHub</a
+            >
+            . contact me via
+            <a  class="bio__email" href="mailto:mutazkhmes@gmail.com"target="_blank">email</a>
+            .
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="/Moataz_Khimes_ComputerTeatcher_CV.pdf" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            class="bio__pic"
+            src="images/personal-pic.png"
+            alt="image of moataz khimes"
+          />
+        </div>
+      </section>
+
+
+      <section id="skills" class="skills section section--with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__item__title">HTML</h2>
+            <p class="skills__prg">8 years</p>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__item__title">CSS</h2>
+            <p class="skills__prg">8 years</p>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__item__title">Javascript</h2>
+            <p class="skills__prg">8 years</p>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__item__title">power point</h2>
+            <p class="skills__prg">2 years</p>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__item__title">teaching</h2>
+            <p class="skills__prg">2 years</p>
+          </li>
+        </ul>
+      </section>
+
+
+      <section id="media" class="media section">
+        <video class="media__video" controls loop>
+          <source
+            src="./سوره الكهف الشيخ عبد الباسط عبد الصمد .mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+
+      <section id="projects" class="projects section">
+        <h2 class="h2-heading">MY FEATURED <br />PROJECTS</h2>
+        <div class="project__main">
+
+             <div class="project">
+                <img class="project__img" src="images/landing-page-master.jpg" alt="images landing-page-master" />
+                <div class="project__data">
+            <h3 class="h3-heading">
+              Landing Page <br />
+              Master
+            </h3>
+
+            <p class="project__description">
+              A modern Landing Page interface that has been carefully designed and implemented to focus on user experience and achieve the highest interaction rate.
+               The project relies on a clean UI design with a smart distribution of visual elements and texts, which helps communicate the idea quickly and clearly.
+            </p>
+            
+                <a
+                class="project__links"
+                  href="https://moataz305g.github.io/Clipboard-landing-page/"
+                  target="_blank"
+                  >Live Demo:</a
+                >
+             <span>-</span>
+                <a
+                class="project__links"
+                  href="https://github.com/moataz305G/Clipboard-landing-page.git"
+                  target="_blank"
+                  >GitHub Repo:</a
+                >
+             
+                </div>
+             </div>
+          
+
+             <div class="project">
+                 <div class="project__data">
+                   <h3 class="h3-heading">Product Preview  <br />Card Component</h3>
+                      <p class="project__description">
+                          A clean and modern Product Preview Card built with a focus on user experience,
+                          pixel-perfect design, and full responsiveness.
+                          The project uses well-structured HTML and CSS to deliver a clear layout and smooth visual presentation.
+                     </p>
+
+                <a
+                class="project__links"
+                  href="https://moataz305g.github.io/product-preview-card/"
+                  target="_blank"
+                  >Live Demo:</a
+                >
+             
+              <span>-</span>
+                <a
+                class="project__links"
+                  href="https://github.com/moataz305G/product-preview-card"
+                  target="_blank"
+                  >GitHub Repo:</a
+                >
+             
+            </ul>
+
+                </div>
+                <img class="project__img" src="images/preview-card-component.jpg" alt="image preview-card-component" />
+
+             </div>  
+
+            <div class="project"> 
+             <img class="project__img" src="images/qr-code-component.jpg" alt="image qr-code-component" />
+             <div class="project__data">
+            <h3 class="h3-heading">
+             QR Code  <br />
+             Component
+            </h3>
+            <p class="project__description">
+             A modern and visually clean QR Code component built to deliver instant access to content with clarity and speed.
+             Focused on pixel-perfect design, responsive layout, and clean, maintainable HTML & CSS to ensure a smooth and professional user experience.
+            </p>
+                <a
+                class="project__links"
+                  href=" https://moataz305g.github.io/qr-code-component/"
+                  target="_blank"
+                  >Live Demo:</a
+                >
+             <span>-</span>
+                <a
+                class="project__links"
+                  href="https://github.com/moataz305G/qr-code-component.git"
+                  target="_blank"
+                  >GitHub Repo:</a
+                >
+             </div>
+            </div>
+           
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section--with-bg">
+
+      <h2 class="h2-heading">What My
+         <br />Clients Says.</h2>
+
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">moataz has the advantageous ability to understand a problem and implement code to a high standard within the deadline. I know I can completely trust moataz to own his tasks and complete what is needed when asked of him. </p>
+            <p class="clients__opinion">Moataz will patiently listen to you and give you his own Ideas as well, and in the end, he comes up with something completely different from what you’re expecting, but the good news is, you’ll always love it. </p>
+            <p class="clients__opinion">Moataz has the ability to communicate the idea in a simple and smooth way</p>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact" class="contact section">
+        <div>
+          <p class="contact__descrption">Feel free to reach out to me any time. I prefer to talk over email, especially since we may be a few time zones away. </p>
+          <a class="contact__email" href="mailto:mutazkhmes@gmail.com">mutazkhmes@gmail.com</a>
+        
+           <!-- <div class="contact__socials">
+             <a href="https://www.linkedin.com/in/moataz-khimes-53586223b/" 
+          class="contact__social" 
+          target="_blank">
+            <img src="images/brand/LinkedIn.svg" alt="linkedin icon">
+             </a>
+             <a href="https://github.com/moataz305G/"
+           class="contact__social">
+            <img src="images/brand/github.svg" 
+            alt="github icon"
+            target="_blank">
+             </a>
+             <a href="https://www.youtube.com/@moatazkhimes2326" 
+          class="contact__social" 
+          target="_blank" >
+            <img src="images/brand/youtube.svg" alt="youtube icon">
+             </a>
+           </div> -->
+           
+               <div class="contact__socials">
+                     <!-- GitHub -->
+                     <a href="https://github.com/moataz305G/" class="contact__social" aria-label="GitHub" target="_blank">
+    <svg viewBox="0 0 24 24" class="social-icon" fill="currentColor">
+      <path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.1 3.29 9.42 7.86 10.95.58.1.79-.25.79-.56v-2.02c-3.2.7-3.87-1.38-3.87-1.38-.52-1.34-1.27-1.7-1.27-1.7-1.04-.72.08-.7.08-.7 1.15.08 1.75 1.19 1.75 1.19 1.02 1.75 2.67 1.25 3.32.96.1-.74.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.7 0-1.26.45-2.3 1.19-3.11-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.19a11.1 11.1 0 0 1 5.79 0c2.21-1.5 3.18-1.19 3.18-1.19.63 1.59.23 2.76.11 3.05.74.81 1.19 1.85 1.19 3.11 0 4.43-2.69 5.41-5.25 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.53 11.53 0 0 0 23.5 12C23.5 5.74 18.27.5 12 .5Z"/>
+    </svg>
+                     </a>
+
+                     <!-- LinkedIn -->
+                     <a href="https://www.linkedin.com/in/moataz-khimes-53586223b/" class="contact__social" aria-label="LinkedIn" target="_blank">
+    <svg viewBox="0 0 24 24" class="social-icon" fill="currentColor">
+      <path d="M4.98 3.5a2.48 2.48 0 1 0 0 4.96 2.48 2.48 0 0 0 0-4.96ZM3 8.98h3.96V21H3V8.98ZM9.5 8.98H13.3v1.64h.05c.53-1 1.82-2.05 3.74-2.05 4 0 4.74 2.63 4.74 6.05V21h-3.96v-5.38c0-1.28-.03-2.92-1.78-2.92-1.78 0-2.05 1.39-2.05 2.83V21H9.5V8.98Z"/>
+    </svg>
+                     </a>
+
+                     <!-- YouTube -->
+                     <a href="https://www.youtube.com/@moatazkhimes2326" class="contact__social" aria-label="YouTube" target="_blank">
+    <svg viewBox="0 0 24 24" class="social-icon" fill="currentColor">
+      <path d="M23.5 6.5s-.23-1.63-.94-2.35c-.9-.94-1.9-.95-2.36-1C16.9 2.9 12 2.9 12 2.9h-.01s-4.9 0-8.2.25c-.46.05-1.46.06-2.36 1C.73 4.87.5 6.5.5 6.5S.25 8.43.25 10.36v1.82c0 1.93.25 3.86.25 3.86s.23 1.63.94 2.35c.9.94 2.08.91 2.61 1.01 1.9.18 8 .24 8 .24s4.9-.01 8.2-.26c.46-.05 1.46-.06 2.36-1 .71-.72.94-2.35.94-2.35s.25-1.93.25-3.86v-1.82c0-1.93-.25-3.86-.25-3.86ZM9.75 14.02V8.48l5.5 2.77-5.5 2.77Z"/>
+    </svg>
+                     </a>
+               </div>
+          
+        </div>
+ 
+        <div class="contant__formcontant">
+        <h2 class="h2-heading">let's work
+         <br />together!.</h2>
+         <form action="results.html">
+            <div class="contact__inputs">
+              <input class="contact__input" name="fullname" type="text" placeholder="Full Name" required>
+               <input  class="contact__input" name="tellphone" type="tel" placeholder="Phone Number"required 
+               pattern="^01[0125][0-9]{8}$"
+               title="من فضلك أدخل رقم موبايل مصري صحيح">
+            </div>
+            <textarea 
+             class="contact__input contact__textarea" 
+             name="description" 
+             id="description" 
+             placeholder="Your Message" 
+             rows="1"
+             required>
+            </textarea>
+            <input class="contact__button" type="submit" value="Send Maeeage">
+
+         </form>
+
+        </div>
+      </section>
+
+      <footer class="footer">
+       <p class="copyright">&copy;2025 by Moataz Khimes</p>
+      </footer>
+
+    </div>
+  </body>
+</html>

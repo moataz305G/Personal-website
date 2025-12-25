@@ -1,0 +1,41 @@
+:root {
+  --color--blue: red;
+}
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* END CSS Reset */
+
+.title {
+  color: var(--color--blue);
+}
+.suptitle {
+  color: var(--color--blue);
+}
+.descraption {
+  color: var(--color--blue);
+}

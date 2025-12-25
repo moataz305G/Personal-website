@@ -1,0 +1,38 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+/* END CSS Reset */
+
+.title {
+  color: ;
+}
+.suptitle {
+  color: ;
+}
+.descraption {
+  color: ;
+}
