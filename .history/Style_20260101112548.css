@@ -584,7 +584,7 @@ html:has(.toggle__checkbox:checked) {
   }
   .navigation {
     position: absolute;
-    background-color: var(--color-background);
+    background-color: var(--color-red);
     width: 100vw;
     top: 0;
     padding: 3rem 0;

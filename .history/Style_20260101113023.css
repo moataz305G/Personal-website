@@ -284,7 +284,8 @@ header {
   box-shadow: 2.17543px 8.7017px 38.0669px rgba(0, 0, 0, 0.15);
 }
 .bio__pic {
-  width: 380px;
+  /* width: 380px; */
+  width: 100%;
   height: 480px;
   object-fit: cover;
 }

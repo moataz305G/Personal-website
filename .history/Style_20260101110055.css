@@ -137,12 +137,8 @@ header {
   width: 100vw; /* inset: 0; */
   border-bottom: 0.1rem solid var(--color-input-border);
   background-color: var(--color-background);
-  top: 0;
+  top: 0.1rem;
   z-index: -1;
-}
-
-.navigation {
-  transition: var(--transition-timing);
 }
 .navigation__list {
   display: flex;
@@ -579,20 +575,13 @@ html:has(.toggle__checkbox:checked) {
     transform: translateY(-8px) rotate(-40deg);
   }
 
-  .burger-menu__chekbox:checked + .navigation {
-    top: 100%;
-  }
   .navigation {
     position: absolute;
-    background-color: var(--color-background);
+    background-color: var(--color-red);
     width: 100vw;
     top: 0;
     padding: 3rem 0;
     border-bottom: 0.1rem solid var(--color-text);
-    z-index: -2;
-  }
-  .navigation__list {
-    justify-content: center;
   }
 }
 
